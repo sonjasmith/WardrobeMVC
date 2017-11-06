@@ -215,7 +215,7 @@
     <Content Include="Content\images\Ruffle Stripe Top.jpg" />
     <Content Include="Content\images\scarf.jpg" />
     <Content Include="Content\images\Peplum blazer.jpg" />
-    <Content Include="Content\images\Wide Leg Trousers.jpg" />
+    <Content Include="Content\images\Trousers.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
