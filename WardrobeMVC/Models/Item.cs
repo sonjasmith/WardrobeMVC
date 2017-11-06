@@ -11,14 +11,21 @@ namespace WardrobeMVC.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+    using System.ComponentModel.DataAnnotations.Schema;
+
     public partial class Item
     {
         public int ItemID { get; set; }
+        [DisplayName("Item Name")]
         public string ItemName { get; set; }
+        [ForeignKey("Tops")]
         public int TopID { get; set; }
+        [ForeignKey("Bottoms")]
         public int BottomID { get; set; }
+        [ForeignKey("Shoes")]
         public int ShoeID { get; set; }
+        [ForeignKey("Accesories")]
         public int AccessoryID { get; set; }
     
         public virtual Accessory Accessory { get; set; }

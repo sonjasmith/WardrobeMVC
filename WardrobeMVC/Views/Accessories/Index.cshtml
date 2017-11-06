@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Accessories</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -39,7 +39,17 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Photo)
+            @*<img src="~/Content/images/infinity scarf.jpg" />*@
+
         </td>
+
+    
+        @*<td>
+            <img src="~/Content/images/infinity scarf.jpg"/>
+            <img src="~/Content/images/scarf.jpg"/>
+        </td>*@
+
+
         <td>
             @Html.DisplayFor(modelItem => item.Type)
         </td>

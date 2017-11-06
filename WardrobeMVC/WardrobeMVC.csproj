@@ -173,6 +173,7 @@
     <Compile Include="Models\Bottom.cs">
       <DependentUpon>WardrobeMVC.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\ForeignkeyAttribute.cs" />
     <Compile Include="Models\Item.cs">
       <DependentUpon>WardrobeMVC.tt</DependentUpon>
     </Compile>
@@ -200,8 +201,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrapJournal.css" />
+    <Content Include="Content\yeti.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\ballet flats.jpg" />
+    <Content Include="Content\images\blue jeans.jpg" />
+    <Content Include="Content\images\Bootie.jpg" />
+    <Content Include="Content\images\Drawstring blouse.jpg" />
+    <Content Include="Content\images\infinity scarf.jpg" />
+    <Content Include="Content\images\mustard blazer.jpg" />
+    <Content Include="Content\images\Ruffle Stripe Top.jpg" />
+    <Content Include="Content\images\scarf.jpg" />
+    <Content Include="Content\images\Peplum blazer.jpg" />
+    <Content Include="Content\images\Wide Leg Trousers.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
